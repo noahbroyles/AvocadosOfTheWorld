@@ -15,15 +15,7 @@ public abstract class Fruit {
 	private int weight;
 	private float cost;
 	
-	
-	
-	public Fruit () {} // empty constructor
-	
-	public Fruit(int weight, float cost) {
-		setWeight(weight);
-		setCost(cost);
-	}
-	
+
 	
 	public String toString() {
 		return "Weight: " + weight + ", cost: " + cost;

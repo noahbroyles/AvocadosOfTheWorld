@@ -13,6 +13,7 @@ public class Main {
 	public static void main(String[] args) {
 		 
 		
-		Avocado avocajoe = new Avocado();
+		Avocado avocajoe = new Avocado(6, (float).50);
+		System.out.println(avocajoe);
 	}
 }
