@@ -1,4 +1,15 @@
+/*
+ * Bill Nicholson
+ * nicholdw@ucmail.uc.edu
+ * 
+ */
+
 package fruit;
-public class Fruit {
- 
+/***
+ * An Abstract class upon which we will build fruits
+ * @author nicomp
+ *
+ */
+public abstract class Fruit {
+
 }
