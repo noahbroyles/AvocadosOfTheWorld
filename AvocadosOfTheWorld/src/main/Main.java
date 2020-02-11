@@ -11,10 +11,10 @@ public class Main {
 
 	public static void main(String[] args) {
 		 
-		Fruit kiwi = new Fruit();
-		kiwi.setCost((float) 0.65);
-		kiwi.setWeight(1);
+		Fruit avocajo = new Fruit();
+		avocajo.setCost((float) 0.65);
+		avocajo.setWeight(1);
 		
-		System.out.println(kiwi);
+		System.out.println(avocajo);
 	}
 }
