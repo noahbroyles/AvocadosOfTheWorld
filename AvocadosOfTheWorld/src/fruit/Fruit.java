@@ -17,7 +17,7 @@ public abstract class Fruit {
 	
 	
 	
-	public Fruit () {}
+	public Fruit () {} // empty constructor
 	
 	public Fruit(int weight, float cost) {
 		setWeight(weight);
