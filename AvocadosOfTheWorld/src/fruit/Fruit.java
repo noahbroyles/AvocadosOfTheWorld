@@ -18,7 +18,7 @@ public abstract class Fruit {
 
 	
 	public String toString() {
-		return "Weight: " + weight + ", cost: " + cost;
+		return "Weight: " + weight + "oz, cost: $" + cost;
 	}
 	
 	// Getters and setters
