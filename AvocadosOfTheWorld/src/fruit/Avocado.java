@@ -11,13 +11,10 @@ package fruit;
  */
 public class Avocado extends Fruit {
 
-	
-	
-	public Avocado () {} // empty constructor
-	
-	public Avocado(int weight, float cost) {
-		setWeight(weight);
-		setCost(cost);
+	public Avocado(Avocado a) {
+		super(a.getWeight(), a.getCost());
 	}
+
+	public Avocado() {}
 	
 }

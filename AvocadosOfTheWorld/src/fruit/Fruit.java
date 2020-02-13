@@ -15,8 +15,13 @@ public abstract class Fruit {
 	private int weight;
 	private float cost;
 	
-
+	public Fruit() {}
 	
+	public Fruit(int weight2, float cost2) {
+		setWeight(weight2);
+		setCost(cost2);
+	}
+
 	public String toString() {
 		return "Weight: " + weight + "oz, cost: $" + cost;
 	}

@@ -1,5 +1,7 @@
 package bin;
 
+import java.util.ArrayList;
+
 import fruit.Avocado;
 
 /***
@@ -10,12 +12,20 @@ import fruit.Avocado;
 public class Bin {
 	
 	private Avocado avocado;
+	private ArrayList<Avocado> avocados;
 	
 	public Bin() {}
 	
+	
+	
 	public Bin(Avocado a) {
-		setAvocado(a);
+		this.avocado = a;
+		this.avocado = new Avocado(a);
+		
+		avocados = new ArrayList<Avocado>();
 	}
+	
+	
 	
 	
 	public String toString() {
