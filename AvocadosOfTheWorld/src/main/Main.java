@@ -5,8 +5,8 @@
  */
 package main;
 
-import fruit.Avocado;
-import fruit.Fruit;
+import bin.*;
+import fruit.*;
 
 public class Main {
 
@@ -15,5 +15,8 @@ public class Main {
 		
 		Avocado avocajoe = new Avocado(6, (float).50);
 		System.out.println(avocajoe);
+		
+		Bin bin = new Bin(avocajoe);
+		System.out.println(bin);
 	}
 }
