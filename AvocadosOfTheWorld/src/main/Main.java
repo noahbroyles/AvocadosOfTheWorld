@@ -18,7 +18,11 @@ public class Main {
 		avocajoe.setWeight(4);
 		System.out.println(avocajoe);
 		
-		Bin bin = new Bin(avocajoe);
-		System.out.println(bin);
+		Bin box = new Bin(avocajoe);
+		
+		for (int i = 0; i < 50; i++) {
+			box.addAvocado(new Avocado());
+		}
+		
 	}
 }

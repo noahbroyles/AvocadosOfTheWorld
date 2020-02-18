@@ -17,7 +17,7 @@ public class Bin {
 	public Bin() {}
 	
 	
-	
+
 	public Bin(Avocado a) {
 		this.avocado = a;
 		this.avocado = new Avocado(a);
@@ -25,7 +25,12 @@ public class Bin {
 		avocados = new ArrayList<Avocado>();
 	}
 	
+
 	
+	
+	public void addAvocado(Avocado a) {
+		avocados.add(new Avocado(a));
+	}
 	
 	
 	public String toString() {
